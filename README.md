@@ -62,9 +62,9 @@ Convert the corresponding dates into a standard format with the strftime method.
 
 - Building Index : manually using the unique terminologies for each corpus. 
 
--Model Type : (Building a vector model) manually for each file (the terms in the index) and manually calculating the tf_idf values through the map data structure.
+- Model Type : (Building a vector model) manually for each file (the terms in the index) and manually calculating the tf_idf values through the map data structure.
 
--Matching : Manually calculate the cos similarity value of the query with each file using mathematical functions np.dot and LA from numpy . library
+- Matching : Manually calculate the cos similarity value of the query with each file using mathematical functions np.dot and LA from numpy . library
 
 **Results :**
  
