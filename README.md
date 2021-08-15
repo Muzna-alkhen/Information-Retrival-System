@@ -1,9 +1,9 @@
-#General Description: 
+**General Description:** 
 
 An information retrieval system capable of adding documents and performing text processing to them then you can retrieve documents throw writing queries.
 The current documents (corpus) is list of articles (NEWYORK-TIMES journal).
 
-#The project performs offline operations as follows:
+**The project performs offline operations as follows:**
 
 1. Read the files (corpus).
 
@@ -16,7 +16,7 @@ The current documents (corpus) is list of articles (NEWYORK-TIMES journal).
 5. Document vectorization (Vector Model)
 
 
-#The project performs online operations as follows:
+**The project performs online operations as follows:**
 
 1. Read the queries file (queries.txt)
 
@@ -41,7 +41,7 @@ The current documents (corpus) is list of articles (NEWYORK-TIMES journal).
 
 5. calculate area under curve “according to the values of precision and recall”.
 
-#Implementation Details:
+**Implementation Details:**
 
 - Programming language:  Python 
 
@@ -66,7 +66,7 @@ Convert the corresponding dates into a standard format with the strftime method.
 
 -Matching : Manually calculate the cos similarity value of the query with each file using mathematical functions np.dot and LA from numpy . library
 
-#Results :
+**Results :**
  
 - The entire application (offline and online processing) was executed with a time of 55 seconds.
 
